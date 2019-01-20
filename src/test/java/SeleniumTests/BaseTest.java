@@ -7,6 +7,8 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.util.concurrent.TimeUnit;
+
 public class BaseTest {
     public static WebDriver driver = getDriver();
     public WebDriverWait wait;
@@ -26,11 +28,13 @@ public class BaseTest {
         driver = new ChromeDriver(options);
         driver.manage().window().maximize();
         driver.get(url);
+        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         return driver;
     }
 
     public static void waitForElementToBeVisible(By by) {
         new WebDriverWait(driver, 30).until(ExpectedConditions.visibilityOfElementLocated(by));
     }
+
 
 }
