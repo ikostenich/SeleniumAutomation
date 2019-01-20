@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c1e0e75-a6de-45b1-ab32-dd4900098d84" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumTests/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTests/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTests/LogInToGmailTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTests/LogInToGmailTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumTests/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumTests/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumTests/LogInToGmailTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumTests/LogInToGmailTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -54,8 +48,8 @@
       <file leaf-file-name="LogInToGmailTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/SeleniumTests/LogInToGmailTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="126" column="71" lean-forward="true" selection-start-line="126" selection-start-column="71" selection-end-line="126" selection-end-column="71" />
+            <state relative-caret-position="-124">
+              <caret line="115" column="34" selection-start-line="115" selection-start-column="34" selection-end-line="115" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -152,9 +146,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="31" />
-    <option name="y" value="64" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="51" />
+    <option name="y" value="-8" />
     <option name="width" value="1691" />
     <option name="height" value="986" />
   </component>
@@ -344,27 +338,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LogInToGmailTest - 2019.01.20 at 15h 13m 16s.xml">
-      <configuration name="LogInToGmailTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LogInToGmailTest - 2019.01.20 at 15h 14m 37s.xml">
-      <configuration name="LogInToGmailTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LogInToGmailTest - 2019.01.20 at 15h 19m 36s.xml">
-      <configuration name="LogInToGmailTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LogInToGmailTest - 2019.01.20 at 16h 23m 57s.xml">
-      <configuration name="LogInToGmailTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LogInToGmailTest - 2019.01.20 at 16h 36m 22s.xml">
-      <configuration name="LogInToGmailTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LogInToGmailTest - 2019.01.20 at 16h 38m 11s.xml">
-      <configuration name="LogInToGmailTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LogInToGmailTest - 2019.01.20 at 16h 43m 26s.xml">
-      <configuration name="LogInToGmailTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="LogInToGmailTest - 2019.01.20 at 16h 58m 24s.xml">
       <configuration name="LogInToGmailTest" configurationId="TestNG" />
     </history-entry>
@@ -374,30 +347,51 @@
     <history-entry file="LogInToGmailTest - 2019.01.20 at 17h 04m 37s.xml">
       <configuration name="LogInToGmailTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="LogInToGmailTest - 2019.01.20 at 18h 44m 31s.xml">
+      <configuration name="LogInToGmailTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LogInToGmailTest - 2019.01.20 at 18h 45m 55s.xml">
+      <configuration name="LogInToGmailTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LogInToGmailTest - 2019.01.20 at 19h 01m 38s.xml">
+      <configuration name="LogInToGmailTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LogInToGmailTest - 2019.01.20 at 19h 03m 56s.xml">
+      <configuration name="LogInToGmailTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LogInToGmailTest - 2019.01.20 at 19h 07m 33s.xml">
+      <configuration name="LogInToGmailTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LogInToGmailTest - 2019.01.20 at 19h 15m 20s.xml">
+      <configuration name="LogInToGmailTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LogInToGmailTest - 2019.01.20 at 19h 17m 06s.xml">
+      <configuration name="LogInToGmailTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="31" y="64" width="1691" height="986" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3254717" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32461873" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36084905" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36056644" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18148375" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15778251" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991684" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36819172" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -439,7 +433,21 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="12" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/SeleniumTests/LogInToGmailTest.java</url>
+          <line>165</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/SeleniumTests/LogInToGmailTest.java</url>
+          <line>164</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="18" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -584,8 +592,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SeleniumTests/LogInToGmailTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="126" column="71" lean-forward="true" selection-start-line="126" selection-start-column="71" selection-end-line="126" selection-end-column="71" />
+        <state relative-caret-position="-124">
+          <caret line="115" column="34" selection-start-line="115" selection-start-column="34" selection-end-line="115" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

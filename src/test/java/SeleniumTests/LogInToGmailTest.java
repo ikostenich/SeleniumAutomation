@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 public class LogInToGmailTest extends BaseTest {
     String recipient = "i.kostenich@gmail.com";
     String subject = Utils.generateRandomString(10, true, true);
-    String emailBody = Utils.generateRandomString(10, true, true);
+    String emailBody = Utils.generateRandomString(100, true, true);
 
     @Test
     public void LogIn() {
@@ -113,7 +113,7 @@ public class LogInToGmailTest extends BaseTest {
     }
 
     @Test(priority = 3)
-    public void CloseEmailWindow() throws NoSuchElementException {
+    public void CloseEmailWindow() {
         By saveAndCloseButtonLocator = By.xpath("//img[@data-tooltip=\"Save & close\"]");
         By newMessageWindowLocator = By.className("AD");
         WebElement newMessageWindow;
@@ -133,7 +133,13 @@ public class LogInToGmailTest extends BaseTest {
         By darftsLinkLocator = By.linkText("Drafts");
         String draftEmailLocatorXpath = "//div[@class=\"xS\" and ./div/div/span/span/text()='" + subject + "']";
         By draftEmailLocator = By.xpath(draftEmailLocatorXpath);
-
+        By newMessageWindowLocator = By.className("AD");
+        By recipientListLocator = By.xpath("//div[@class='oL aDm az9']/span");
+        By subjectLocator = By.xpath("//input[@name='subject']");
+        By draftBodyLocator = By.className("LW-avf");
+        String recipientDraftValue;
+        String subjectDraftValue;
+        String draftBodyValue;
 
         //Open the Drafts page
         driver.findElement(darftsLinkLocator).click();
@@ -142,6 +148,23 @@ public class LogInToGmailTest extends BaseTest {
         WebElement draftEmail = driver.findElement(draftEmailLocator);
         Assert.assertNotNull(draftEmail);
         draftEmail.click();
+
+        //Check that window is opened
+        Assert.assertNotNull(driver.findElement(newMessageWindowLocator));
+
+
+        //Check the recipient value
+        recipientDraftValue = driver.findElement(recipientListLocator).getText();
+        Assert.assertTrue(recipientDraftValue.equals(recipient));
+
+        //Check subject value
+        subjectDraftValue = driver.findElement(subjectLocator).getAttribute("value");
+        Assert.assertTrue(subjectDraftValue.equals(subject));
+
+        //Check draft body
+        draftBodyValue = driver.findElement(draftBodyLocator).getText();
+        Assert.assertTrue(draftBodyValue.equals(emailBody));
+
 
     }
 
